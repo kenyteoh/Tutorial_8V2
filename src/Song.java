@@ -1,8 +1,8 @@
 public class Song {
 
     //Define relevant elements to go into the song object
-    public String songTitle;
-    public String songLocation;
+    private String songTitle;
+    private String songLocation;
 
 
     // Create the Song object based on the elements
@@ -18,6 +18,6 @@ public class Song {
 
     //Accessor method to get song location
     public String getSongLocation() {
-        return songTitle;
+        return songLocation;
     }
 }
